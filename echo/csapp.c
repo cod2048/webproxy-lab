@@ -23,7 +23,6 @@
  */
 /* $begin csapp.c */
 #include "csapp.h"
-가자
 /************************** 
  * Error-handling functions
  **************************/
