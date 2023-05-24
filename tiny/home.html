@@ -1,7 +1,25 @@
 <html>
 <head><title>test</title></head>
-<body> 
-<img align="middle" src="godzilla.gif">
-Dave O'Hallaron
+<body>
+<div style="width: 55%; margin:0 auto;">
+    <h2 style="text-align:center">Junik's server</h2>
+    <video src="junik.mp4" type="video/mp4" controls muted autoplay preload="auto" loop style="width: auto;">snow</video>
+    <p style="text-align: center;">welcome! please wirte 2 numbers</p>
+    <div>
+        <input type="text" id="num1" style="float: left;">
+        <input type="text" id="num2" style="float: right;">
+        
+    </div>
+    <div style="clear:both; margin:0 auto;">
+    <button type="button" onclick="add()">add two numbers</button>
+</div>
+</div>
+<script>
+    function add(){
+        let num1 = document.getElementById("num1");
+        let num2 = document.getElementById("num2");
+        return num1 + num2;
+    }
+</script>
 </body>
 </html>
